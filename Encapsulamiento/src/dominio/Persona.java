@@ -44,4 +44,6 @@ public class Persona {
     public void setFired(String fired){
         this.fired = fired;
     }
+    
+    
 }
