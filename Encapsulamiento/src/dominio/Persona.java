@@ -45,5 +45,10 @@ public class Persona {
         this.fired = fired;
     }
     
-    
+    public String toString(){
+        return "Persona (Name: " + this.name +
+                ", Persona salary: " + this.salary +
+                ", \nPersona eliminated: " + this.eliminated +
+                ", Persona is fired: " + this.fired+")";
+    }
 }

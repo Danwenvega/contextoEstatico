@@ -12,14 +12,14 @@ public class Encapsulamiento {
         //System.out.println("Name: "+ persona1.name); mismo caso qie el anterior
         System.out.println("Persona1 nombre con cambio: " + persona1.getName());
         System.out.println("Persona1 sueldo: " + persona1.getSalary());
-        System.out.println("Person1 eliminated: " + persona1.isEliminated());
+        System.out.println("Persona1 eliminated: " + persona1.isEliminated());
         if (persona1.isEliminated() ==true){
            persona1.setFired("Yes");
         }
         else{
             persona1.setFired("No");
         }
-        System.out.println("persona1 = " + persona1);
+        System.out.println("persona1 = " + persona1.toString());
     }
     
 }
